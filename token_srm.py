@@ -4,9 +4,9 @@ from urllib.parse import parse_qs
 import base64
 
 
-url = "https://academia.srmuniv.ac.in/accounts/signin.ac"
+url = "https://academia.srmist.edu.in/accounts/signin.ac"
 
-headers = {'Origin': 'https://academia.srmuniv.ac.in',
+headers = {'Origin': 'https://academia.srmist.edu.in',
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.3202.89 Safari/537.36' }
 
 
