@@ -32,7 +32,7 @@ def getToken(username, password):
         return json.dumps(json_o)
     else:
         params = parse_qs(json_data['data']['token_params'])
-        params['state'] = 'https://academia.srmuniv.ac.in/'
+        params['state'] = 'https://academia.srmist.edu.in'
         r = requests.get(json_data['data']['oauthorize_uri'], data=params, headers=headers)
         token = json.dumps(r.history[0].cookies.get_dict())
         token = str(base64.encodestring(str.encode(token)),'utf-8')
