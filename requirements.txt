@@ -1,4 +1,3 @@
-$ pip Freeze
 Flask==0.10.1
 Flask-Mail==0.9.1
 Flask-SQLAlchemy==2.1
